@@ -96,5 +96,14 @@ if (choice == 3) {
             cout << "Enter base and exponent: ";
             cin >> base >> exponent;
             result = pow(base, exponent);
-            cout << "Result: " << base << " ^ " << exponent << " = " << result <<
+            cout << "Result: " << base << " ^ " << exponent << " = " << result << endl;
         }
+               else if (choice == 7) {
+            double num, result;
+            cout << "Enter a number: ";
+            cin >> num;
+            if (num >= 0) {
+                result = sqrt(num);
+                cout << "Result: Square root of " << num << " = " << result << endl;
+            }
+               } 
