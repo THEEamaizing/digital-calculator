@@ -16,3 +16,12 @@ void displayMenu() {
     cout << "8. Exit" << endl;
     cout << "Choose an operation (1-8): ";
 }
+int main() {
+    int choice;
+    do {
+        displayMenu();
+        cin >> choice;
+        // Logic to be implemented later
+    } while (choice != 8);
+    return 0;
+}
