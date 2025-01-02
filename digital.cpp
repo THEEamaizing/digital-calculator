@@ -79,5 +79,12 @@ if (choice == 3) {
             else {
                 cout << "Error! Division by zero is not allowed." << endl;
             }
-        
-        
+      else if (choice == 5) {
+            int num1, num2, result;
+            cout << "Enter two integers: ";
+            cin >> num1 >> num2;
+            if (num2 != 0) {
+                result = num1 % num2;
+                cout << "Result: " << num1 << " % " << num2 << " = " << result << endl;   
+            }
+      }
