@@ -88,3 +88,7 @@ if (choice == 3) {
                 cout << "Result: " << num1 << " % " << num2 << " = " << result << endl;   
             }
       }
+        else {
+                cout << "Error! Modulus by zero is not allowed." << endl;
+            }
+        
