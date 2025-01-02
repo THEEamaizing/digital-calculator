@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <limits>
 #include <cmath>
+#include <string>
 using namespace std;
 
 void displayMenu() {
@@ -38,28 +39,28 @@ int main() {
         // Logic to be implemented later
     } while (choice != 8);
     return 0;
-}
-if (choice == 1) {
+ }
+ if (choice == 1) {
     double num1, num2, result;
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
     result = num1 + num2;
     cout << "Result: " << num1 << " + " << num2 << " = " << result << endl;
-}
-if (choice == 2) {
+ }
+ if (choice == 2) {
     double num1, num2, result;
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
     result = num1 - num2;
     cout << "Result: " << num1 << " - " << num2 << " = " << result << endl;
-}
-if (choice == 3) {
+ }
+ if (choice == 3) {
     double num1, num2, result;
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
     result = num1 * num2;
     cout << "Result: " << num1 << " * " << num2 << " = " << result << endl;
-}
+ }
   else if (choice == 3) {
             double num1, num2, result;
             cout << "Enter two numbers: ";
@@ -117,4 +118,8 @@ if (choice == 3) {
             cout << "Invalid choice! Please choose a valid operation." << endl;
         }
          while (choice != 8);
+
          return 0;
+         
+         
+         
