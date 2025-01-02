@@ -25,3 +25,17 @@ int main() {
     } while (choice != 8);
     return 0;
 }
+
+int main() {
+    int choice;
+    do {
+        displayMenu();
+        while (!(cin >> choice)) {
+            cout << "Invalid input! Please enter a number between 1 and 8: ";
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+        }
+        // Logic to be implemented later
+    } while (choice != 8);
+    return 0;
+}
