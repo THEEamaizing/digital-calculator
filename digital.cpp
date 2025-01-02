@@ -107,3 +107,6 @@ if (choice == 3) {
                 cout << "Result: Square root of " << num << " = " << result << endl;
             }
                } 
+                else {
+                cout << "Error! Negative number input for square root." << endl;
+            }
