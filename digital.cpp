@@ -113,3 +113,6 @@ if (choice == 3) {
             else if (choice == 8) {
             cout << "Exiting program. Goodbye!" << endl;
             }
+            else {
+            cout << "Invalid choice! Please choose a valid operation." << endl;
+        }
