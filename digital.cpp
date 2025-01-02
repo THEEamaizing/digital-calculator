@@ -76,3 +76,8 @@ if (choice == 3) {
                 cout << "Result: " << num1 << " / " << num2 << " = " << result <<
             }
   }
+            else {
+                cout << "Error! Division by zero is not allowed." << endl;
+            }
+        
+        
