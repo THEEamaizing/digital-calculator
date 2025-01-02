@@ -39,3 +39,10 @@ int main() {
     } while (choice != 8);
     return 0;
 }
+if (choice == 1) {
+    double num1, num2, result;
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
+    result = num1 + num2;
+    cout << "Result: " << num1 << " + " << num2 << " = " << result << endl;
+}
