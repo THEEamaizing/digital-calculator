@@ -116,3 +116,4 @@ if (choice == 3) {
             else {
             cout << "Invalid choice! Please choose a valid operation." << endl;
         }
+         while (choice != 8);
