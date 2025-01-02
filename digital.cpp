@@ -91,4 +91,10 @@ if (choice == 3) {
         else {
                 cout << "Error! Modulus by zero is not allowed." << endl;
             }
-        
+        else if (choice == 6) {
+            double base, exponent, result;
+            cout << "Enter base and exponent: ";
+            cin >> base >> exponent;
+            result = pow(base, exponent);
+            cout << "Result: " << base << " ^ " << exponent << " = " << result <<
+        }
